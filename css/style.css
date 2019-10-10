@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+a, ul, li {
+    display: block;
+}
+
+nav {
+    text-align: center;
+}
+
+.container {
+    max-width: 1110px;
+    margin: auto;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu a {
+    line-height: 16px;
+    color: #333333;
+}
+
+.menu li {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.menu-top {
+    padding: 16px 0 17px 0;
+    background: #E5E5E5;
+}
+
+.menu-center {
+    background: #ffffff;
+    padding: 20px 0;
+}
+
+.menu-bottom {
+    background: #ffffff;
+    padding: 30px 0;
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.menu-center button {
+    padding: 13px 27px;
+    border-radius: 40px;
+    border: 2px solid crimson;
+    background: white;
+}
+
+#sale {
+    background: url("../Images/Rectangle 2.png") center center no-repeat;
+    background-size: cover;
+    height: 604px;
+    width: 100%;
+}
+
+.sale-text {
+    width: 25%;
+    text-align: left;
+}
+
+.sale-text h3 {
+    padding-top: 200px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.sale-text p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.btn {
+    padding: 13px 27px;
+    border-radius: 40px;
+    border: 2px solid white;
+    background: #F13C6E;
+    width: 170px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #FFFFFF;
+}
+#goods{
+    background: #E5E5E5;
+    padding: 80px 0 100px 0;
+}
+.box{
+    width: 23%;
+    text-align: center;
+    background: #ffffff;
+    margin-right: 15px;
+    padding: 25px 25px;
+}
+.by{
+    padding: 9px 40px;
+    text-align: center;
+    display:inline-block;
+}
+.box-text p{
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin: 20px 0;
+}
+.box-text h4{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+#goods h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 38px;
+}
+.subscribe{
+    width: 48%;
+    margin-right: 15px;
+    text-align: left;
+    background: #F13C6E;
+    padding: 36px 45px;
+}
+.our-shops{
+    display: flex;
+    justify-content: space-between;
+    width: 49%;
+    margin-left: 15px;
+    text-align: left;
+    background: #F13C6E;
+    padding: 36px 45px;
+}
+.subscribe h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.subscribe p{
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.our-shops h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.our-shops p{
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.subscribe input{
+    width: 225px;
+    padding: 9px 104px 9px 25px;
+    border-radius: 30px;
+    text-align: left;
+}
+.btn-del{
+    display: inline-block;
+    padding: 9px 29px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
